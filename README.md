@@ -15,7 +15,7 @@ docker run -itd --name box1 --rm busybox
 
 # 创建容器box2,在$host2上
 eval $(weave env)
-docker run -itd --name box1 --rm busybox
+docker run -itd --name box2 --rm busybox
 
 # 此时两个容器间，可以使用ping box1/box2进行连接了
 
